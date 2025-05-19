@@ -13,7 +13,7 @@ public class RigidbodyMod : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space)) 
         {
-            //_rb.isKinematic = true;
+            _rb.isKinematic = false;
             _rb.mass= 1.0f;
             _rb.linearDamping = 0;
             _rb.angularDamping = 0.05f;
